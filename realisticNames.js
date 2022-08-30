@@ -8,6 +8,14 @@ export const realFirstLast = () => {
     })
 }
 
+export const realFirstLastHyphenated = () => {
+    return fullLegalName({
+        firstArr: firstNames,
+        lastArr1: lastNames,
+        lastArr2: lastNames
+    })
+}
+
 export const realFirstMiddleLast = () => {
     return fullLegalName({
         firstArr: firstNames,
